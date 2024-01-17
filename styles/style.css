@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+}
+
+/* header */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.travel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+.travel-icon {
+    width: 48px;
+    height: 56px;
+}
+
+.travel-title {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.travel-color {
+    color: #FF5400;
+}
+
+.travel-content ul {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    margin-right: 130px;
+}
+
+.travel-content ul a {
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#home-color {
+    color: #FF5400;
+}
+
+.banner {
+    background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+}
+
+.banner-title {
+    text-align: center;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 100px;
+}
+
+.banner-description {
+    color: #FFF;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.input-field {
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+    height: 52px;
+    padding-left: 10px;
+}
+
+.banner-content {
+    margin-top: 30px;
+    margin-left: 350px;
+    width: 50%;
+    background-color: rgb(229, 236, 237);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+/* main */
+
+.our-tour {
+    margin: 50px 130px;
+    display: flex;
+    gap: 50px;
+}
+
+.tour-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800
+}
+
+.tour-des {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
