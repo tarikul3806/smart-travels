@@ -285,6 +285,31 @@ nav {
     margin-left: 450px;
 }
 
+/* Extra Section */
+.extra-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.extra-content {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.extra-pic {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.extra-left {
+    width: 672px;
+    height: 422px;
+}
+
 /* Newsletter */
 .newsletter {
     display: flex;
@@ -423,4 +448,42 @@ footer {
     color: #131318;
     font-size: 16px;
     font-weight: 300;
+}
+
+@media screen and (max-width: 576px) {
+    nav,
+    .banner-content,
+    .our-tour,
+    .des-top,
+    .des-mid,
+    .des-bottom,
+    .choose-box,
+    .extra-pic,
+    .newsletter,
+    .footer-title,
+    .f-icon
+    {
+        flex-direction: column;
+    }
+    .banner-title {
+        padding-top: 0px;
+    }
+    .banner-content {
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    .our-tour {
+        margin-left: 20px;
+    }
+    .des-top,
+    .des-mid,
+    .des-bottom,
+    .choose-box,
+    .newsletter {
+        margin-left: 10px;
+        width: 50%;
+    }
+    .f-icon {
+        margin-left: 20px;
+    }
 }
