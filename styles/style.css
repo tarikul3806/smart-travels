@@ -375,3 +375,52 @@ nav {
     font-size: 32px;
     font-weight: 800;
 }
+
+/* Footer */
+footer {
+    margin-top: 80px;
+    width: 1440px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 100px;
+}
+
+.f-description {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.f-icon {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.hr {
+    margin-top: 30px;
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.all {
+    margin-top: 50px;
+    text-align: center;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+}
