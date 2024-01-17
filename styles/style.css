@@ -126,3 +126,252 @@ nav {
     margin-bottom: 30px;
 }
 
+/* Destination */
+
+.des-title {
+    text-align: center;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.des-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.des-top {
+    display: flex;
+    gap: 30px;
+    margin-left: 130px;
+}
+
+.top-left {
+    background-image: url(/Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    width: 573px;
+    height: 300px;
+}
+
+.pic-title {
+    text-align: center;
+    margin-top: 150px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.top-right {
+    background-image: url(/Images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    width: 573px;
+    height: 300px;
+}
+
+.des-mid {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+.left-mid {
+    background-image: url(/Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    width: 374px;
+    height: 286px;
+}
+
+.mid-mid {
+    background-image: url(/Images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    width: 474px;
+    height: 286px;
+}
+
+.right-mid {
+    background-image: url(/Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    width: 274px;
+    height: 286px;
+}
+
+.des-bottom {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+.bottom-left {
+    background-image: url(/Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    width: 473px;
+    height: 300px;
+}
+
+.bottom-right {
+    background-image: url(/Images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    width: 673px;
+    height: 300px;
+}
+
+/* Choose us */
+
+.choose-title {
+    margin-top: 50px;
+    text-align: center;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.Choose-des {
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.choose-box {
+    display: flex;
+    gap: 30px;
+    margin: 30px 130px;
+}
+
+.Choose-left {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.Choose-left-icon {
+    width: 64px;
+    height: 64px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.Choose-left-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-left: 30px;
+}
+
+.Choose-left-des {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.Choose-right {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.Choose-bottom {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-left: 450px;
+}
+
+/* Newsletter */
+.newsletter {
+    display: flex;
+    gap: 30px;
+    margin: 30px 130px;
+}
+
+.newsletter-content {
+    margin-top: 50px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 474px;
+    height: 422px;
+}
+
+.newsletter-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.newsletter-des {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 40px;
+}
+
+.nform {
+    display: grid;
+    grid-template-columns: (1, 1fr);
+}
+
+.name {
+    margin: 10px 40px;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.email {
+    margin: 10px 40px;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.nbtn {
+    margin: 10px 40px;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 393px;
+    height: 52px;
+}
+
+.newsletter-pic {
+    background-image: url(/Images/Rectangle\ 8\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 672px;
+    height: 422px;
+    margin-top: 50px;
+}
+
+.npic-box {
+    border-radius: 16px;
+    background: #FF5400;
+    transform: rotate(-19.628deg);
+    margin-top: 250px;
+    margin-left: 330px;
+    margin-right: 10px;
+}
+
+.npic-title {
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.npic-des {
+    text-align: center;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+}
